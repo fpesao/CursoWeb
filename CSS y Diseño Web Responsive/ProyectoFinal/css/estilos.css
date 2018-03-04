@@ -24,3 +24,40 @@ img {
 .enlace {
 	color: red;
 }
+* {
+	margin: 1vh 1vw;
+}
+h1 + h2 {
+	text-decoration: underline;
+}
+h2 ~ p {
+	text-align: justify;
+}
+article> h2 {
+	text-decoration: underline;
+}
+ul li {
+	list-style-type: circle;
+}
+a[href^='http://']:visited {
+	color: white;
+}
+a:hover {
+	color: green;
+}
+h2:first-child {
+	text-decoration: underline;
+}
+input:focus {
+	width: 160px;
+	height: 140px;
+}
+p::first-letter {
+	text-transform: capitalize;
+}
+p::first-line {
+	font-size: 32px;
+}
+p::selection {
+	
+}
