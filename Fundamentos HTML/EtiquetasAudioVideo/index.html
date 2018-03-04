@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="YBTecno">
+	<meta name="viewport" content="width=device-width, user-scalable=no"><meta name="keywords" content="miga, sandwich, fábrica">
+    <meta name="description" content="Fabrica de sandwich">
+    <title>Etiquetas para Audio y Video</title>
+  </head>
+  	<body>
+      <h2>autoplay</h2>
+      <p>Reproduce el video o audio apenas se abre la web, sin necesidad de dar click</p>
+      <audio src="media/pepe.mp3" controls autoplay></audio>
+      <h2>loop</h2>
+      <p>Reproduce el video o audio nuevamente cada vez que termine</p>
+      <audio src="media/pepe.mp3" controls loop></audio>
+	  <h2>preload</h2>
+      <p>Almacena en buffer los archivos una vez que se hayan cargado, se usa cuando trabajamos con archivos muy pesados</p>
+      <ul>
+      	<li>none: No almacenar nuestros archivos</li>
+      	<audio src="media/pepe.mp3" controls preload="none"></audio>
+      	<li>auto: Almacena temporalmnete el archivo</li>
+      	<audio src="media/pepe.mp3" controls preload="auto"></audio>
+      </ul>
+      <video src="media/pepe.ogv" controls poster="media/pepe.png" width="500px" height="500px"></video>
+
+      <video controls poster="media/pepe.png" width="500px" height="500px">
+      	<source src="media/pepe.ogv" type="video/ogv">
+      	<source src="media/pepe.webm" type="video/webm">
+      	<source src="nedia/pepe.mp4" type="video/mp4">
+      		Tu navegador no sposrta ninguno de los videos
+      </video>
+  	</body>
+</html>
