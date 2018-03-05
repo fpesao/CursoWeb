@@ -6,19 +6,16 @@ div [class*="bloque"]{
   min-height: 200px;
   flex: 1 2 40%;
 }
-
 .bloque1 {
   color: #ddd;
   background-color: #FF0000;
   order: 2;
-
 
 }
 .bloque2 {
   color: #333;
   background-color: #00FF99;
   order: 3;
-
 
 }
 .bloque3 {
@@ -58,3 +55,15 @@ div [class*="bloque"]{
   display: flex;
   flex-flow: row wrap;
 }
+/*
+flex-flow: row (primero direccion) wrap(luego tipo de agrupamiento);
+flex-flow: row;
+flex-flow: row-reverse;
+flex-flow: wrap;
+flex-flow: wrap-reverse;
+-----
+En los bloques o hijos
+order: 1; o 2; o 3;
+flex-grow: 1 o 2 (Tamaño que le dará)
+-----
+flex: 1(flex-grow) 2(flex-shrink) 40%(flex-basis);*/

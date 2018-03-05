@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no">
+    <title>Viewport</title>
+
+<link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body >
+    <h1>HTML 5</h1>
+    <figure>
+      <figcaption>Imagen de Homero</figcaption>
+      <img src="img/pepe.svg" alt="Escudo HTML5" />
+    </figure>
+    <!-- usar este es mejor -->
+    <picture>
+      <source media="(min-width: 768px)" srcset="img/pepe.svg" >
+      <source media="(min-width: 480px)" srcset="img/sandclasico1.jpg" >
+      <img src="img/portada.png" >
+    </picture>
+    <!-- En los videos el problema es que solo se puede mostrar a 300px por eso usamos las propiedades de css -->
+  <video src="videofile.ogg" controls></video>
+
+  <!-- EJEMPLO MUY BUENO -->
+
+  <header>
+  	<h1>
+  		El café
+  	</h1>
+  </header>
+  <section id="contenido">
+  	<p>Simplemente café...</p>
+  	<img src="img/cafe.jpg" class="adaptativa-porcentaje">
+  	<hr>
+  	<article>
+  		<h1>El café</h1>
+  		<p>Energía de vida...</p>
+  		<img src="img/cafe_grande.jpg" class="adaptativa-porcentaje-1">
+  	</article>
+
+  	<article>
+  		<h1>Café de montaña o de selva?</h1>
+  		<p>Diferentes tipos de café...</p>
+  		<img src="img/cafe_mediana.jpg" class="adaptativa-porcentaje-2">
+  	</article>
+
+  	<article>
+  		<h1>Café frio o caliente?</h1>
+  		<p>Diferentes forma de preparación...</p>
+  		<img src="img/cafe_pequena.jpg" class="adaptativa-porcentaje-3">
+  	</article>
+  </section>
+
+  <footer>
+  	Derechos Reservados
+  </footer>
+
+  </body>
+</html>

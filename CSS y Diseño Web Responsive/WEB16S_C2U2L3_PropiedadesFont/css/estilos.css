@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'FreeSans';
+  src: url('FreeSans.otf');
+}
+
+h1{
+  font-family: 'FreeSans';
+  font-size: 2em;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+p{
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.2em;
+}
+
+/* ejemplos de atributos de texto
+p {
+  text-align: center, left, right,justify;
+  text-indent: 2cm;
+  text-decoration: underline,overline,line-through;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  word-spacing: 30px;
+  color: red;
+}*/
+/* p::selection{
+  background: green;
+  color: black;
+  text-shadow: 1px 1px #fff;
+} */
